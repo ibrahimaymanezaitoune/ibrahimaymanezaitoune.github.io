@@ -171,7 +171,7 @@ p {
 	margin: 0 auto;
 	margin-right: 0;
 	cursor: pointer;
-	background-color: var(--body-bg);
+	background-color: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
