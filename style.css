@@ -1032,13 +1032,14 @@ p {
 
 #copyright {
 	padding: 1rem 0;
-	background-color: #AADDBF
-;
+	background-color: #AADDBF;
 }
 #copyright p {
-	color: white;
+	color: #00A651;
 	margin: 1rem;
 	font-size: 1.4rem;
+        text-align:center;
+}
 }
 @media only screen and (max-width: 768px) {
 	#copyright p {
