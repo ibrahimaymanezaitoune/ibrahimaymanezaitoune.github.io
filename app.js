@@ -19,7 +19,7 @@ if(scrollButton){
   });
 }
 
-// Hamburger Menu events
+//  Menu 
 hamburgerMenu.addEventListener('click', ()=>{
   navContent.classList.add('show');
   document.body.style.overflow="hidden";
