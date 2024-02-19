@@ -204,7 +204,7 @@ p {
 	text-align: left;
 }
 #nav-content .section-heading::before {
-	content: 'Menu';
+	content: 'Menü';
 	text-align: left;
 	-webkit-text-stroke: 1.5px #afadad25;
 }
