@@ -52,7 +52,7 @@ p {
 	margin-bottom: 10rem;
 }
 .section-heading::before {
-	content: 'DIENSTLEISTUNGEN ';
+	content: 'DIENSTLEISTUNGEN';
 	position: absolute;
 	left: 2%;
 	top: -20%;
