@@ -19,7 +19,6 @@ if(scrollButton){
   });
 }
 
-//  Menu 
 hamburgerMenu.addEventListener('click', ()=>{
   navContent.classList.add('show');
   document.body.style.overflow="hidden";
@@ -34,3 +33,4 @@ navLinks.forEach( link => {
     document.body.style.overflow="initial";
   })
 })
+
