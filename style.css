@@ -14,7 +14,7 @@
 }
 html {
 	font-family: 'Roboto Mono';
-	font-size: 9px;
+	font-size: 10px;
 	scroll-behavior: smooth;
 }
 body {
@@ -24,9 +24,6 @@ a {
 	color: black;
 	text-decoration: none;
 }
-h3{
-	color:black;
-  }
 
 section {
 	display: flex;
@@ -82,8 +79,6 @@ p {
 	font-size: 1.8rem;
 	padding: 0.6em 1.6em;
 	border-radius: 50px;
-	align-items: center;
-
 }
 .buttons .primary-btn.outline {
 	background-color: transparent;
@@ -100,36 +95,13 @@ p {
   color:#00A651;
   }
 
-.primary-btn-see {
-	display: inline-block;
-	background-color: var(--primary-color);
-	color: white;
-	font-size: 1.8rem;
-	padding: 0.6em 1.6em;
-	border-radius: 50px;
-	margin-left: 30%;
-	
-}
-.buttons .primary-btn-see.outline {
-	background-color: transparent;
-	border: 2px solid var(--primary-color);
-	color: var(--primary-color);
-}
-.primary-btn-see.outline:hover {
-  background-color: #00A651;
-  color: var(--body-bg);
-  }
-
-.primary-btn-see:hover {
-  background-color: #ffffff;
-  color:#00A651;
-  }
-
 .buttons svg {
 	width: 50px;
 	color: var(--primary-color);
 }
-
+h3{
+  color:black;
+}
 
 .scroll-top {
 	z-index: 100;
@@ -171,7 +143,7 @@ p {
 	margin: 0 auto;
 	margin-right: 0;
 	cursor: pointer;
-	background-color: none;
+	background-color: var(--body-bg);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -204,7 +176,7 @@ p {
 	text-align: left;
 }
 #nav-content .section-heading::before {
-	content: 'Menü';
+	content: 'Menu';
 	text-align: left;
 	-webkit-text-stroke: 1.5px #afadad25;
 }
@@ -273,7 +245,6 @@ p {
 		right: 10px;
 		top: 10px;
 	}
-	
 	#nav-content nav ul li a::after {
 		display: none;
 	}
@@ -375,8 +346,8 @@ p {
 }
 #Batal .right img {
 	width: 100%;
-	max-width: 420px;
-	height: 515px;
+	max-width: 450px;
+	height: 600px;
 	object-fit: cover;
 	object-position: 50% 30%;
 	border-radius: 12px;
@@ -413,7 +384,7 @@ p {
 	}
 	#Batal .right img {
 		width: 100%;
-		height: 450px;
+		height: 400px;
 	}
 }
 @media only screen and (max-width: 950px) {
@@ -794,6 +765,8 @@ p {
 	}
 }
 
+
+
 /* Contact Section */
 #contact {
 	padding: 10rem 0;
@@ -957,6 +930,9 @@ p {
 	justify-content: flex-start;
 	gap: 2rem;
 }
+
+  
+}
 #footer footer .col-1 {
 	flex: 3;
 }
@@ -1032,14 +1008,14 @@ p {
 
 #copyright {
 	padding: 1rem 0;
-	background-color: #AADDBF;
+	background-color: #AADDBF
+;
 }
 #copyright p {
 	color: #00A651;
 	margin: 1rem;
 	font-size: 1.4rem;
-        text-align:center;
-}
+  text-align:center;
 }
 @media only screen and (max-width: 768px) {
 	#copyright p {
@@ -1095,17 +1071,17 @@ font-weight: 500;
 }
 
 .html {
-  animation: html 3.5s;
-  width: 96%;
+  animation: html 2s;
+  width: 93%;
 }
 
 .css {
-  animation: css 3.5s;
-  width: 90%;
+  animation: css 2s;
+  width: 73%;
 }
 
 .js {
-  animation: js 3.5s;
+  animation: js 2s;
   width: 70%;
 }
 
