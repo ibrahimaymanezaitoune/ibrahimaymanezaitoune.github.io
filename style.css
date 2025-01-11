@@ -49,7 +49,7 @@ p {
 	margin-bottom: 10rem;
 }
 .section-heading::before {
-	content: attr(data-outline);
+	content: 'DIENSTLEISTUNGEN';
 	position: absolute;
 	left: 2%;
 	top: -20%;
